@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background: #000;
+}
+::-webkit-scrollbar-thumb{
+    background: #d0d0d0;
+}
+body{
+    width: 100%;
+    background-image: url("https://www.designyourway.net/diverse/darkpat/wallpaper_800x600_1336.jpg");
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+
+}
+.logo {
+    font-size: 20px;
+    color: #d0d0d0;
+    font-weight: 600;
+    margin-right: 250px;
+}
+
+.nav_url li{
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #000;
+    color: #d0d0d0;
+
+}
+.nav_url li a{
+    transition: all 0.5ms ease;
+    list-style: none;
+    display: inline-block;
+    color: #d0d0d0;
+    text-decoration: none;
+    font-weight: 600;
+}
+.nav_url li:hover{
+   color: #fff;
+   border-radius: 7px;
+
+}
+.home a{
+    margin: 2px;
+    font-size: 20px;
+    color: #d0d0d0;
+}
+.text{
+    font-size: 40px;
+    color: #d0d0d0;
+
+}
+.text span{
+    width: 600;
+    color: #fff;
+}
+.WebBody{
+    display: flex;
+    justify-content: space-around;
+    padding: 20;
+    margin-top: 100px;
+}
+.WebBody img{
+    width: 450px;
+}
